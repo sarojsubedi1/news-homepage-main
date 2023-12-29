@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "name": "news-homepage-main",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
